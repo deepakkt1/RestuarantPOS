@@ -22,7 +22,7 @@ echo "
 			<small>Powered by Avero POS</small></br>
 			<small>Submission by Deepak</small>
 		</h1>
-<a href = \"http://127.0.0.1/index.html\" ><img src = \"images/restaurant.gif\"></a>
+<a href = \".\" ><img src = \"images/restaurant.gif\"></a>
 	</div>
 	<div class = \"container\" align = \"center\" style=\"background-color:skyblue;\">";
 
