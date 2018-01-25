@@ -1,4 +1,4 @@
-# CodingExerciseSubmission
+# Avero Coding Exercise Submission
 
 I am Deepak, a graduate student from University of Colorado Boulder pursuing Master's in Computer Science. I developed a web application to help Servers in the restuarant 'The Greasy Spoon' manage checks. This application uses Avero POS API to communicate with server and get relevant information. 
 
