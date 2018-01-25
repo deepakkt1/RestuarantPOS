@@ -18,13 +18,21 @@ For the application to run, you need:
 2. PHP
 3. Curl
 
+### NOTE: INSTALL CURL corresponding to the same version of PHP. The webpage has a GIF in center which acts as home button. While browsing checks, each item having table and check number is collapsable with the required details.  
+
+Following are instruction for Ubuntu after git clone :
+
+* sudo apt-get install apache2
+* sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+* sudo apt-get install php7.0curl
+* sudo service apache2 restart
 
 More details on how to install Apache and PHP can be found here for [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04) , [Windows](https://www.znetlive.com/blog/how-to-install-apache-php-and-mysql-on-windows-10-machine/) and [Mac](https://jason.pureconcepts.net/2016/09/install-apache-php-mysql-mac-os-x-sierra/). Instructions to install Curl for [Ubuntu](http://www.brocade.com/content/html/en/sdn-controller/3.0.0/software-installation/GUID-BF7C280A-A9C6-4C13-A253-7A425FE5CD3F.html) and [Windows and Mac](https://help.zendesk.com/hc/en-us/articles/229136847-Installing-and-using-cURL)
 
 
 ## [Demo of the solution](https://youtu.be/8huxRhXXZBU) 
 
-### NOTE: The webpage has a GIF in center which acts as home button. While browsing checks, each item having table and check number is collapsable with the required details.  
+
 
 # TechStack
 
