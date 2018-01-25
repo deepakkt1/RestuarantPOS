@@ -14,6 +14,8 @@ In order to run this web application, clone the repository. For example if your 
 
 For the application to run, you need apache and php installed. More details on how to install them can be found here for [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04) , [Windows](https://www.znetlive.com/blog/how-to-install-apache-php-and-mysql-on-windows-10-machine/) and [Mac](https://jason.pureconcepts.net/2016/09/install-apache-php-mysql-mac-os-x-sierra/)
 
+## Youtube Link for [demo](https://youtu.be/8huxRhXXZBU) of the solution
+
 ### NOTE: The webpage has a GIF in center which acts as home button. While browsing checks, each item having table and check number is collapsable with the required details.  
 
 # TechStack
@@ -29,7 +31,7 @@ For the application to run, you need apache and php installed. More details on h
 
 1. PHP Script
 
-## Youtube Link for [demo](https://youtu.be/8huxRhXXZBU) of the solution
+
 # Screenshots
 
 ## Homescreen
