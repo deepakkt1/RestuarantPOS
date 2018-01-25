@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Avero</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.round-pic2 {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: 0em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 99em;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border: 0px solid gray;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+.round-pic2:hover {
+    opacity:0.5;
+}
+
+.round-pic2:hover::before{
+    content: 'Manage checks';
+    position: relative;
+    top: 60px;
+    left: 50px;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    color: red;
+
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.button5 {border-radius: 50%;}
+
+</style>
+
+</head>
+<body>
+
+<div class = "container" align = "center" style="background-color:powderblue;">
+	<h1>The Greasy Spoon</br>
+	<small>Powered by Avero POS</small></br>
+	<small>Submission by Deepak</small>
+	</h1>
+	<a href = "http://127.0.0.1/index.html" ><img src = "images/restaurant.gif"></a>
+</div>
+<div class = "container" align = "center" style="background-color:skyblue;">
+	<form action = "test.php" method = "GET" >
+		<div style="display:inline;float: left;padding-left: 70px">
+			<input  type="image" class="round-pic2 thumbnail" id="saveform2" src="images/new.png" name = "step" value = "2" type ="submit" alt="Manage open checks" />
+			<h2 >Manage open checks</h2>
+		</div>
+		<div style="display:inline;float: left;padding-left: 100px">
+			<button type="button" class="button button5" data-toggle="modal" data-target="#ModalCheckForm">
+			 <img  class="round-pic2 thumbnail" id="saveform3" src="images/open.png"  alt="Open new check" />
+			</button>
+			<h2 >Open a new check</h2>
+		</div>
+		<div style="display:inline;float: left; padding-left: 100px">
+			<input  type="image" class="round-pic2 thumbnail" id="saveform2" src="images/closedc.png" name = "step" value = "1" type ="submit" alt="View closed checks" />
+			<h2 >View closed checks</h2>
+		</div>
+
+		<div id="ModalCheckForm" class="modal fade">
+		    <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			    <div class="modal-header">
+				<h1 class="modal-title">Choose a table to open check</h1>
+			    </div>
+			    <div class="modal-body">
+				<form role="form" method="POST" action="test.php">
+				    <div class="form-group">
+					<div>
+						<p><input type="radio" name="tablenumber" value="1" />
+						  <img height="50" width="50" src="images/1.jpg" alt="Table 1">
+						</p><p><input type="radio" name="tablenumber" value="2" />
+						  <img height="50" width="50" src="images/2.jpg" alt="Table 2">
+						</p><p><input type="radio" name="tablenumber" value="3" />
+						  <img height="50" width="50" src="images/3.jpg" alt="Table 3">
+						</p><p><input type="radio" name="tablenumber" value="4" />
+						  <img height="50" width="50" src="images/4.jpg" alt="Table 4">
+						</p><p><input type="radio" name="tablenumber" value="5" />
+						  <img height="50" width="50" src="images/5.jpg" alt="Table 5">
+						</p><p><input type="radio" name="tablenumber" value="6" />
+						  <img height="50" width="50" src="images/6.jpg" alt="Table 6">
+						</p><p><input type="radio" name="tablenumber" value="7" />
+						  <img height="50" width="50" src="images/7.jpg" alt="Table 7">
+						</p><p><input type="radio" name="tablenumber" value="8" />
+						  <img height="50" width="50" src="images/8.jpg" alt="Table 8">
+						</p><p><input type="radio" name="tablenumber" value="9" />
+						  <img height="50" width="50" src="images/9.jpg" alt="Table 9">
+						</p><p><input type="radio" name="tablenumber" value="10" />
+				  		  <img height="50" width="50" src="images/10.jpg" alt="Table 10">
+						</p>
+					    <button type="submit" name = "step" value = 6 class="btn btn-success">Submit request</button>
+					</div>
+				    </div>
+				</form>
+			   </div>
+		 	</div>
+	    	     </div>
+		</div>
+			
+			
+	</form>
+
+</div>
+</body>
+</html>
