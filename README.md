@@ -12,7 +12,15 @@ In order to run this web application, clone the repository. For example if your 
 /var/www/html/images
 
 
-For the application to run, you need apache and php installed. More details on how to install them can be found here for [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04) , [Windows](https://www.znetlive.com/blog/how-to-install-apache-php-and-mysql-on-windows-10-machine/) and [Mac](https://jason.pureconcepts.net/2016/09/install-apache-php-mysql-mac-os-x-sierra/)
+For the application to run, you need:
+
+1. Apache 
+2. PHP
+3. Curl
+
+
+More details on how to install Apache and PHP can be found here for [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04) , [Windows](https://www.znetlive.com/blog/how-to-install-apache-php-and-mysql-on-windows-10-machine/) and [Mac](https://jason.pureconcepts.net/2016/09/install-apache-php-mysql-mac-os-x-sierra/). Instructions to install Curl for [Ubuntu](http://www.brocade.com/content/html/en/sdn-controller/3.0.0/software-installation/GUID-BF7C280A-A9C6-4C13-A253-7A425FE5CD3F.html) and [Windows and Mac](https://help.zendesk.com/hc/en-us/articles/229136847-Installing-and-using-cURL)
+
 
 ## [Demo of the solution](https://youtu.be/8huxRhXXZBU) 
 
@@ -30,7 +38,7 @@ For the application to run, you need apache and php installed. More details on h
 ## Server Side 
 
 1. PHP Script
-
+2. Curl request
 
 # Screenshots
 
