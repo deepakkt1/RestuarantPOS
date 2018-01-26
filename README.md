@@ -1,6 +1,6 @@
-# Avero Coding Exercise Submission
+# Restuarant POS 
 
-I am Deepak, a graduate student from University of Colorado Boulder pursuing Master's in Computer Science. I developed a web application to help Servers in the restuarant 'The Greasy Spoon' manage checks. This application uses Avero POS API to communicate with server and get relevant information. 
+I am Deepak, a graduate student from University of Colorado Boulder pursuing Master's in Computer Science. I developed a web application to help Servers in the restuarant manage checks. This application uses Avero POS API to communicate with server and get relevant information. 
 
 In order to run this web application, clone the repository. For example if your path is /var/www/html, ensure the folder structure is as following:
 
